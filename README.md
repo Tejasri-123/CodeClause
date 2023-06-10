@@ -56,7 +56,7 @@ Confidence refers to the likelihood that an item B is also bought if item A is b
 Lift(A -> B) refers to the increase in the ratio of sale of B when A is sold. Lift(A –> B) can be calculated by dividing Confidence(A -> B) divided by Support(B). Mathematically it can be represented as:
 
   ### **Lift(A→B) = (Confidence (A→B))/(Support (B))**
-### **Steps involved in Apriori algorithm
+### **Steps involved in Apriori algorithm**
 * Step 1: Set a minimum value for support and confidence. This means that we are only interested in finding rules for the items that have certain default existence (e.g. support) and have a minimum value for co-occurrence with other items (e.g. confidence).
 * Step 2: Extract all the subsets having higher value of support than minimum threshold.
 * Step 3: Select all the rules from the subsets with confidence value higher than minimum threshold.
