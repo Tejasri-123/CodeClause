@@ -47,7 +47,7 @@
  
 ### **Support**
 Support refers to the default popularity of an item and can be calculated by finding number of transactions containing a particular item divided by total number of transactions. Suppose we want to find support for item A. This can be calculated as:
-    ### **Support(A) = (Transactions containing (A))/(Total Transactions)**
+   ### **Support(A) = (Transactions containing (A))/(Total Transactions)**
 ### **Confidence**
 Confidence refers to the likelihood that an item B is also bought if item A is bought. It can be calculated by finding the number of transactions where A and B are bought together, divided by total number of transactions where A is bought. Mathematically, it can be represented as:
 
